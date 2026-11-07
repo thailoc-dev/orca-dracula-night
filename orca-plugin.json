@@ -1,0 +1,34 @@
+{
+  "manifestVersion": 2,
+  "id": "dracula-night",
+  "name": "Dracula Night",
+  "version": "0.2.0",
+  "execution": "data",
+  "description": "Dracula on a deep indigo night for Orca: app, code editor and terminal colors with Dracula's pink, purple, cyan and green.",
+  "license": "MIT",
+  "repository": "https://github.com/thailoc-dev/orca-dracula-night",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "dracula-night",
+        "title": "Dracula Night",
+        "path": "themes/dracula-night.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "dracula-night",
+        "title": "Dracula Night",
+        "path": "terminal/dracula-night.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "Orca in Dracula Night: workspaces, syntax-highlighted TypeScript and a terminal on a deep indigo background with pink accents"
+  }
+}
